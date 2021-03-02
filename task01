@@ -1,0 +1,22 @@
+public class Lesson_1 {
+    public static void main (String [] args){
+        for (int i = 1; i <= 100; i++){
+            String f = "Fizz";
+            String b = "Buzz";
+            String k = String.valueOf(i);
+            if (i%3 != 0) {
+                f = "";
+            }
+            else {
+                k = "";
+            }
+            if (i%5 != 0) {
+                b = "";
+            }
+            else {
+                k = "";
+            }
+            System.out.println(k + f + b);
+        }
+    }
+}
